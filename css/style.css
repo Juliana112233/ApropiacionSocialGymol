@@ -418,15 +418,17 @@ footer .contacto {
 @media screen and (max-width: 500px) {
 
 	.contenedor {
-		font-size: 50%;
+		font-size: 63%;
 		margin-bottom: 2px;
 		margin-left: 2px;
-	}
 
+	}
+    
 	.textos{
-		padding-left: 20%;
+		padding-left: 27%;
 		width: 400px;
-		padding-top: 13%;
+		padding-top: 30%;
+		text-align: right;
 	}
 
 
@@ -458,4 +460,4 @@ footer .contacto {
 
 }
 
-}carti
+}
