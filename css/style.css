@@ -227,9 +227,10 @@ header .textos h3 {
 	color: rgb(11, 11, 11);
 	padding-top: 0%;
 	size: 100%;
-	border: transparent;
-	margin-top: 3%;
+	border: tra;
+	margin-top: 9%;
 	width: 80%;
+	padding-left: 3%;
 	margin-left: 0%;
 	
 }
@@ -238,7 +239,7 @@ header .textos h3 {
 	/*border: 1px solid black;*/
 	padding: 8px;
 	position: relative;
-	background-image: url(../Multimedia/notebookfondo.jpeg);
+	background-image: url("../Multimedia/notebookfondo.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 530px;
@@ -246,7 +247,7 @@ header .textos h3 {
 	border-radius: 20px;
 	padding-top: 1%;
 	margin-bottom: 100px;
-	margin-top: 20px;
+	margin-top: 5%;
 	overflow: auto;
 	
 }
@@ -259,7 +260,7 @@ header .textos h3 {
 	border: transparent;
 	margin-left: 0%;
 	display: flexbox;
-	margin-top: 0%;
+	margin-top: 2%;
 	height: 60%;
 	padding-top: 0%;
 
@@ -274,7 +275,7 @@ header .textos h3 {
 	margin-left: 0%;
 	margin-top: 7%;
 	border: transparent;
-	width: 100%;
+	width: 80%;
 	height: 10%;
 	color: black;
 
@@ -288,9 +289,8 @@ header .textos h3 {
 	margin-right: 0%;
 	border: transparent;
     position: relative;
-	float: left;
 	margin-top: 0%;
-	width: 300px;
+	width: 250px;
 
 	
 }
@@ -300,10 +300,12 @@ header .textos h3 {
 	float: left;
 	font-size: 1em;
 	margin-bottom: 8px;
-	height: 20em;
-	width: 16em;
+	height: 12em;
+	width: 15em;
 	border: transparent;
 	position: relative;
+	padding-left: 30%;
+	margin-top: 10%;
 	
 }
 
@@ -358,7 +360,7 @@ header .textos h3 {
 
 .main .radio {
 	background: #fff;
-	background-image: url(../Multimedia/radio1.jpg);
+	background-image: url("../Multimedia/radio1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
@@ -381,6 +383,7 @@ header .textos h3 {
 	margin-bottom: 20px;
 	margin-top: 3%;
 	border: transparent;
+	
 	
 }
 
@@ -426,25 +429,39 @@ footer .contacto {
 		font-size: 10px;
 		margin-bottom: 2px;
 		margin-left: 2px;
-		background-size: 50px;
 	}
 
 	.textos{
 		padding-left: 20%;
 		width: 400px;
-		padding-top: 8%;
+		padding-top: 13%;
 	}
 
-	.items{
+	.header .items{
 		font-size: 7px;
-		float: left;
+		position: relative;
+		display: list-item;
 		padding-right: 80%;
+		background-image: url(none);
 	}
+	.contenedorDocumentos{
+		padding-top: 20%;
+	}
+
+
     
 	.pdf{
-		height: 18px;
-		width: 10px;
+		height: 10px;
+		width: 5px;
 	}
+	.contacto{
+		margin-top: 8%;
+	}
+    
+	.fotografias{
+		margin-left: 0px;
+	}
+
 
 }
 
