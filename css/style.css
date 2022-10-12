@@ -418,17 +418,17 @@ footer .contacto {
 @media screen and (max-width: 500px) {
 
 	.contenedor {
-		font-size: 63%;
+		font-size: 10px;
 		margin-bottom: 2px;
 		margin-left: 2px;
-
 	}
     
 	.textos{
-		padding-left: 27%;
-		width: 400px;
-		padding-top: 30%;
-		text-align: right;
+		padding-left: 70px;
+		height: 300px;
+		width: auto;
+		padding-top: 0%;
+		text-align: center;
 	}
 
 
@@ -442,7 +442,6 @@ footer .contacto {
 	.contenedorDocumentos{
 		padding-top: 20%;
 	}
-
 
     
 	.pdf{
